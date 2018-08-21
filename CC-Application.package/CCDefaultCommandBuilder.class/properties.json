@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "EDABaseCommandBuilder",
+	"category" : "CC-Application",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"commandDictionary"
+	],
+	"name" : "CCDefaultCommandBuilder",
+	"type" : "normal"
+}

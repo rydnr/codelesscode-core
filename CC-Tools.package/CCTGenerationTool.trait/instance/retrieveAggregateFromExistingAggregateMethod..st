@@ -1,0 +1,3 @@
+helper
+retrieveAggregateFromExistingAggregateMethod: json
+	^ self retrieveAggregateFromExistingAggregateMethod: json usingEventClassPrefix: CCEDAApplication eventClassPrefix

@@ -1,0 +1,12 @@
+{
+	"category" : "CC-Application",
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CCEventProducer",
+	"commentStamp" : "",
+	"super" : "EDAEventProducer",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classtraitcomposition" : "EDATSourceCodeHelper"
+}

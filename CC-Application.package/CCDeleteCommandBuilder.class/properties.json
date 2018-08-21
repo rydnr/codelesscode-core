@@ -1,0 +1,15 @@
+{
+	"classtraitcomposition" : "EDATDeleteCommandBuilderHelper classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"aggregateRootClassDict"
+	],
+	"name" : "CCDeleteCommandBuilder",
+	"commentStamp" : "",
+	"super" : "EDABaseCommandBuilder",
+	"traitcomposition" : "EDATDeleteCommandBuilderHelper",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "CC-Application"
+}

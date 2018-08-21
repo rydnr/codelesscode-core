@@ -1,4 +1,4 @@
-version = "0.2.0-SNAPSHOT" // do not forget to update the version also in docker.gradle
+version = "latest-SNAPSHOT"
 apply plugin: PharoPlugin
 
 pharo {
@@ -25,7 +25,7 @@ task loadGitFileTree(type: LoadMetacelloConfigTask, dependsOn: downloadFreshImag
     commonPharoArgs = customPharoArgs
 }
 
-task loadATS(type: LoadMetacelloConfigTask, dependsOn: loadGitFileTree) {
+task loadCodelesscodeCore(type: LoadMetacelloConfigTask, dependsOn: loadGitFileTree) {
     repository = "gitfiletree://${project.projectDir}"
     configuration = 'ConfigurationOfCodelesscodeCore'
     version = 'bleedingEdge'
@@ -34,7 +34,7 @@ task loadATS(type: LoadMetacelloConfigTask, dependsOn: loadGitFileTree) {
     commonPharoArgs = customPharoArgs
 }
 
-task customizeImage(type: RunSmalltalkScriptTask, dependsOn: loadATS) {
+task customizeImage(type: RunSmalltalkScriptTask, dependsOn: loadCodelesscodeCore) {
     script = "customize.st"
     pharoPath = customPharoPath
     commonPharoArgs = customPharoArgs
@@ -59,7 +59,7 @@ task loadCodelesscodeCoreTests(type: LoadMetacelloConfigTask, dependsOn: assembl
 
 task test(type: RunPharoTestsTask, dependsOn: loadCodelesscodeCoreTests) {
     image = imageName
-    packageName = "ATS-**-Tests"
+    packageName = "CC-**-Tests"
     shouldOutputAsJUnit = true
     pharoPath = customPharoPath
     commonPharoArgs = customPharoArgs

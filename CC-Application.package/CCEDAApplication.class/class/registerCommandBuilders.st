@@ -1,0 +1,4 @@
+setup - commands
+registerCommandBuilders
+	self registerSpecificCommandBuilders.
+	self registerDeleteCommandBuilders

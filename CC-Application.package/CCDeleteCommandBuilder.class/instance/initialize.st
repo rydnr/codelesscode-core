@@ -1,0 +1,4 @@
+initialization
+initialize
+	self aggregateRootClassDict: Dictionary new.
+	self initializeAggregateRootClassMappings

@@ -1,0 +1,3 @@
+helper
+retrieveAggregateIdAttributeFor: aggregate
+	^ self retrieveAggregateIdAttributeFor: aggregate usingCommandClassPrefix: CCEDAApplication commandClassPrefix

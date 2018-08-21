@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "EDAJsonEventSerializer",
+	"category" : "CC-Application",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CCJsonEventSerializer",
+	"type" : "normal"
+}

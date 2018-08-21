@@ -1,0 +1,7 @@
+{
+	"commentStamp" : "",
+	"traitcomposition" : "EDATSourceCodeHelper + EDATCheckerHelper",
+	"classtraitcomposition" : "EDATSourceCodeHelper classTrait + EDATCheckerHelper classTrait",
+	"category" : "CC-Tools",
+	"name" : "CCTGenerationTool"
+}

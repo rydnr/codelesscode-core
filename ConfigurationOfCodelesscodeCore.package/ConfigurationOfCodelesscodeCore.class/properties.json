@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ConfigurationOfCodelesscodeCore",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"LastVersionLoad"
+	],
+	"instvars" : [
+		"project"
+	],
+	"name" : "ConfigurationOfCodelesscodeCore",
+	"type" : "normal"
+}

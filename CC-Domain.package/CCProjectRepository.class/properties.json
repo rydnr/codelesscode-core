@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "EDAAggregateRepository",
+	"category" : "CC-Domain-Project",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CCProjectRepository",
+	"type" : "normal"
+}
